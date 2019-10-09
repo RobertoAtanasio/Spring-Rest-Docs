@@ -1,0 +1,39 @@
+=== Get Product By Id
+Obtém um produto específico pelo seu identificador único.
+
+==== Requisição Exemplo
+include::{snippets}/v2/product/get-product-by-id/http-request.adoc[]
+
+==== Resposta Exemplo
+include::{snippets}/v2/product/get-product-by-id/http-response.adoc[]
+
+==== CURL sample
+include::{snippets}/v2/product/get-product-by-id/curl-request.adoc[]
+
+==== Path Parameters
+include::{snippets}/v2/product/get-product-by-id/path-parameters.adoc[]
+
+==== Campo de Resposta
+include::{snippets}/v2/product/get-product-by-id/response-fields.adoc[]
+
+= How to generate document using Spring REST Doc API
+Javadevjournal<contact-us@javadevjournal.com> 1.0.0;
+
+
+[[overview]]
+= Overview
+
+[[overview-http-verbs]]
+== HTTP verbs
+
+RESTful notes tries to adhere as closely as possible to standard HTTP and REST conventions in its
+use of HTTP verbs.
+
+|===
+| Verb | Usage
+
+| `GET`
+| Used to retrieve a resource
+
+| `POST`
+| Used to create a new resource
